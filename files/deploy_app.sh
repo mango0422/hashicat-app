@@ -11,7 +11,7 @@ cat << EOM > /var/www/html/index.html
   <div style="width:800px;margin: 0 auto">
 
   <!-- BEGIN -->
-  <center><img src="https://raw.githubusercontent.com/mango0422/hashicat-app/main/files/ProFit_member.jpg" max-height="1080" ></img></center>
+  <center><img src="https://raw.githubusercontent.com/mango0422/hashicat-app/main/files/ProFit_member.jpg" height="600" ></img></center>
   <center><h2>Meow World!</h2></center>
   Welcome to team ProFit! We're glad to see you.<br/>
   We'll be
