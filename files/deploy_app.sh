@@ -28,11 +28,8 @@ sudo usermod -aG docker ${USER}
 # 여기에 원하는 도커 이미지를 지정하세요 (예: nginx:latest)
 DOCKER_IMAGE="nginx:latest"
 
-# 기존의 동일한 이름의 컨테이너가 있으면 삭제
-sudo docker rm -f my_container
-
 # 도커 컨테이너 실행
-docker run -d -p 8080:8080 pengbai/docker-supermario
+sudo docker run -d -p 8080:8080 pengbai/docker-supermario
 
 echo "Docker has been installed and the container is running on port 8080."
 echo "You may need to log out and log back in for the user group changes to take effect."
