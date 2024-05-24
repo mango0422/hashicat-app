@@ -13,7 +13,8 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="https://raw.githubusercontent.com/mango0422/hashicat-app/main/files/ProFit_member.jpg" height="600" ></img></center>
   <center><h2>Meow World!</h2></center>
-  Welcome to team ProFit! We're glad to see you.<br/>
+  Welcome to team ProFit! We're glad to see you. 
+  YAPYAP<br/>
   We'll be
   <!-- END -->
 
